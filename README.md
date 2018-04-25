@@ -5,7 +5,7 @@
 # Monte Carlo Simulation Scenario & Purpose:
 
 # Introduction:
-FIFA World Cup Russia 2018 is just round the corner. This is the worlds largest soccer tournament in which 32 nations compete for the world cup. The teams are chosen on the basis of international friendlies which take place prior to the commencement of the world cup. The top 32 qualifying teams are categorized into 8 groups and compete against each other in their respective groupm stages.
+FIFA World Cup Russia 2018 is just round the corner. This is the worlds largest soccer tournament in which 32 nations compete for the world cup. The teams are chosen on the basis of international friendlies which take place prior to the commencement of the world cup. The top 32 qualifying teams are categorized into 8 groups and compete against each other in their respective group stages.
 
 The top 2 teams from every group enter the round of 16. This marks the knockout stage of the tournament. Quarter-finals, Semi-finals and the final are the rounds to follow. Each round eliminates teams and the winning teams go through to the next round. Ultimately two best teams battle for the World cup throne.
 
