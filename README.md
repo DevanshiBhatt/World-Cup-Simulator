@@ -3,19 +3,20 @@
 ## Team Member(s): Hiral Rayani, Varun Kasbekar
 
 # Monte Carlo Simulation Scenario & Purpose:
-Introduction:
+
+# Introduction:
 FIFA World Cup Russia 2018 is just round the corner. This is the worlds largest soccer tournament in which 32 nations compete for the world cup. The teams are chosen on the basis of international friendlies which take place prior to the commencement of the world cup. The top 32 qualifying teams are categorized into 8 groups and compete against each other in their respective groupm stages.
 
 The top 2 teams from every group enter the round of 16. This marks the knockout stage of the tournament. Quarter-finals, Semi-finals and the final are the rounds to follow. Each round eliminates teams and the winning teams go through to the next round. Ultimately two best teams battle for the World cup throne.
 
-Purpose- 
+# Purpose- 
 The purpose of this simulation model is to predict the FIFA world cup winner , along with the probility of each teams chance of winning the world cup. As we all know Paul OCTOPUS doesn't exist anymore, we have decided to continue the trend of predicting the FIFA world cup match winners.
 
- Scenario-
+# Scenario-
 We will be using real world data from the Official FIFA world cup website which includes Team Rankings, Team's past performance in the world cups. We are grouping the qualified teams into 8 groups by performing random draws.
 The groups will be as follows:
 
- GROUP STAGE:
+# GROUP STAGE:
 ____________________________________________
 Group A: Team 1, Team 2, Team 3, Team 4
 
@@ -52,7 +53,7 @@ QuarterFinalist7: QualifiedTeam13 vs QualifiedTeam14
 
 QuarterFinalist8: QualifiedTeam15 vs QualifiedTeam16
 
- QUARTER FINALS:
+# QUARTER FINALS:
 ___________________________________________________
 SemiFinalist1: QualifiedTeam1 vs QualifiedTeam2
 
@@ -62,14 +63,14 @@ SemiFinalist3: QualifiedTeam5 vs QualifiedTeam6
 
 SemiFinalist4: QualifiedTeam7 vs QualifiedTeam8
 
- SEMI FINALS:
+# SEMI FINALS:
 ___________________________________________________
 
 Finalist1: QualifiedTeam1 vs QualifiedTeam2
 
 Finalist2: QualifiedTeam3 vs QualifiedTeam4
 
- FINAL:
+# FINAL:
 _______________________
 
 Finalist1 vs Finalist2
