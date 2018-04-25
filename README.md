@@ -125,17 +125,23 @@ After the n simulations, the team who has highest probability of winning will be
  
 ## Analytical Summary of your findings: (e.g. Did you adjust the scenario based on previous simulation outcomes?  What are the management decisions one could make from your simulation's output, etc.)
  
-We first simulated a Single Match based on the parameters above. Then we simulated the Group Stage. Ultimately we simulate the Knockout Phase to find out the Winner. During this Simulation, we thought that the accuracy of the model can be increased if we use the Win Ratio of Teams in past worldcups. So we incorporated that into our model. We are using Poissons distribution for two main reasons. Firstlt Poissons Distribution works best when variables are independent of each other. So here assuming that the Average Goals Scored by Team is independent, we decided to use Poissons Distribution. Secondly Poissons Distribution works best when we know a single parameter(  Average Goals Scored by Team) in our case.
+We first simulated a Single Match based on the parameters above. Then we simulated the Group Stage. Ultimately we simulate the Knockout Phase to find out the Winner. During this Simulation, we thought that the accuracy of the model can be increased if we use the Win Ratio of Teams in past worldcups. So we incorporated that into our model. We are using Poissons distribution for two main reasons. Firstly Poissons Distribution works best when variables are independent of each other. So here assuming that the Average Goals Scored by Team is independent, we decided to use Poissons Distribution. Secondly Poissons Distribution works best when we know a single parameter(  Average Goals Scored by Team) in our case.
  
 ## Instructions on how to use the program:
 Download the FifaRnakings.csv data file
+
 Download the worldcup.py file and run it.
+
 Import pandas, random and numpy
+
 The code does not need an input to be given, It computes the probability of each team winning the worldcup by itself.
+
 However the integer number that decides how many times to run the simulation can be changed.
  
  
 ## All Sources Used:
 http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0101-74382015000300577#B7
+
 https://medium.com/@adamfreymiller/a-monte-carlo-simulation-of-the-2017-18-premier-league-season-3b7bbe8b8a13
+
 https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/poisson-distribution
