@@ -18,41 +18,60 @@ The groups will be as follows:
  GROUP STAGE:
 ____________________________________________
 Group A: Team 1, Team 2, Team 3, Team 4
+
 Group B: Team 5, Team 6, Team 7, Team 8
+
 Group C: Team 9, Team 10, Team 11, Team 12
+
 Group D: Team 13, Team 14, Team 15, Team 16
+
 Group E: Team 17, Team 18, Team 19, Team 20
+
 Group F: Team 21, Team 22, Team 23, Team 24
+
 Group G: Team 25, Team 26, Team 27, Team 28
+
 Group H: Team 29, Team 30, Team 31, Team 32
 
 ROUND OF 16:
 ___________________________________________________
 
 QuarterFinalist1: QualifiedTeam1 vs QualifiedTeam2
+
 QuarterFinalist2: QualifiedTeam3 vs QualifiedTeam4
+
 QuarterFinalist3: QualifiedTeam5 vs QualifiedTeam6
+
 QuarterFinalist4: QualifiedTeam7 vs QualifiedTeam8
+
 QuarterFinalist5: QualifiedTeam9 vs QualifiedTeam10
+
 QuarterFinalist6: QualifiedTeam11 vs QualifiedTeam12
+
 QuarterFinalist7: QualifiedTeam13 vs QualifiedTeam14
+
 QuarterFinalist8: QualifiedTeam15 vs QualifiedTeam16
 
  QUARTER FINALS:
 ___________________________________________________
 SemiFinalist1: QualifiedTeam1 vs QualifiedTeam2
+
 SemiFinalist2: QualifiedTeam3 vs QualifiedTeam4
+
 SemiFinalist3: QualifiedTeam5 vs QualifiedTeam6
+
 SemiFinalist4: QualifiedTeam7 vs QualifiedTeam8
 
  SEMI FINALS:
 ___________________________________________________
 
 Finalist1: QualifiedTeam1 vs QualifiedTeam2
+
 Finalist2: QualifiedTeam3 vs QualifiedTeam4
 
  FINAL:
 _______________________
+
 Finalist1 vs Finalist2
 
 We will be randomizing the draws after each round. We first sort the teams based on their FIFA rankings and then randomly assign them 2 values - Attack, Defense based on their rankings. The winner of every group stage is decided from - the points obtained by the team, goals scored and goal difference. We have also considered giving an advantage to the team who wins a toss ( it will be completely randomised to avoid bias). For optimal accuracy our model uses an equation which does computation on those randomly generated ATTACK & DEFENCE values and gives us updated values. We are also trying to incorporate teams past performance in World Cups( Winning Ratio).
