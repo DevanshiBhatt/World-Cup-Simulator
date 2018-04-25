@@ -114,9 +114,13 @@ avgscoredbyteam2 = AverageAttack(Team2)/ AverageDefense(Team1) * TossFactor
 ## Hypothesis or hypotheses before running the simulation:
  
 All Teams are independent of each other.
+
 Any team can be assigned to any Group.
+
 The performance of every team is independent of each other.
+
 The Toss will be coin Toss that will be independent.
+
 After the n simulations, the team who has highest probability of winning will be the predicted winner and positions(rankings) can be decided according to other Teams winning probability.
  
 ## Analytical Summary of your findings: (e.g. Did you adjust the scenario based on previous simulation outcomes?  What are the management decisions one could make from your simulation's output, etc.)
