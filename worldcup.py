@@ -30,7 +30,6 @@ def main():
 
     avgScored = 0
     avgConceded = 0
-
     avgScored = df['Attack'].sum()
     avgConceded = df['Defence'].sum()
 
