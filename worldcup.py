@@ -249,7 +249,6 @@ def main():
     print("\n")
     simulations=100
 
-
     for i in range(simulations):
         # Play first stage
         print("Result of", i+1 ,"simulations")
