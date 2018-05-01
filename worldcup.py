@@ -258,6 +258,7 @@ def main():
         print("GROUP A RESULTS")
         print("\n")
         groupA = TeamPool(Groups[0])
+
         print("\n")
         print("GROUP B RESULTS")
         print("\n")
