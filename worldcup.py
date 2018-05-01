@@ -338,7 +338,6 @@ def main():
                 teamname = choice(quarterfinal)
                 i.append(teamname)
                 quarterfinal.remove(teamname)
-
         semifinalist1 = WorldCupMatch(quarterfinalgroups[0][0], quarterfinalgroups[0][1], False).winner
         semifinalist2 = WorldCupMatch(quarterfinalgroups[1][0], quarterfinalgroups[1][1], False).winner
         semifinalist3 = WorldCupMatch(quarterfinalgroups[2][0], quarterfinalgroups[2][1], False).winner
