@@ -5,7 +5,6 @@ import random
 from random import randint
 from random import choice
 
-
 # The winner of the group stage is obtained from points, goal goaldifference, goal scored
 
 class WorldCupMatch:
