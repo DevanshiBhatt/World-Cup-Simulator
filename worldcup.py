@@ -655,4 +655,4 @@ if __name__ == '__main__':
 
     userschoice = input(" Do you want to simulate for fixed or random draws? \n Enter fixed or random\n")
 
-    main(1000,userschoice)
+    main(10000,userschoice)
