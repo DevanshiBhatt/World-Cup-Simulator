@@ -650,6 +650,7 @@ def main(simulations, userschoice):
         print("Please enter correct input and try again")
         pass
 
+
 if __name__ == '__main__':
 
     userschoice = input(" Do you want to simulate for fixed or random draws? \n Enter fixed or random\n")
