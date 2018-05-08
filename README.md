@@ -121,7 +121,7 @@ The performance of every team is independent of each other.
 
 The Toss will be coin Toss that will be independent.
 
-After the n simulations, the team who has highest probability of winning will be the predicted winner and positions(rankings) can be decided according to other Teams winning probability.
+After the n simulations, the team who has highest probability of winning will be the predicted winner and positions can be decided according to other Teams winning probability.
  
 ## Analytical Summary of your findings: (e.g. Did you adjust the scenario based on previous simulation outcomes?  What are the management decisions one could make from your simulation's output, etc.)
  
@@ -137,7 +137,9 @@ Import pandas, random and numpy
 The code does not need an input to be given, It computes the probability of each team winning the worldcup by itself.
 
 However the integer number that decides how many times to run the simulation can be changed.
- 
+
+## Conclusions
+After several discussions, we came up with a more efficient way to assign attack and defense value to each team. Previously we assigned these values based on their team rankings. We then created bins of size 8 and segregated 32 teams into 4 such bins according to their rankings. We then randomly generated Attack and Defence values to the teams with respect to these bins. So now for the top notch teams i.e top 8 teams will have attack and defence values in one range and so on.This reduced any sort of bias and improved efficiency. Our model randomizes draws, score, toss every single time and thus we could not incorporate several Doctests. However we have included 1 doctest by setting the seed to get the same output every time. This can be just used an example on what input to give and how our output will be. We have also created a seperate TOSS function that can be used before every match. Also with due respect to the suggestions from our peers, we have incorporated Fixed draws and Random draws. Our model gives the flexibility to the user to choose whether he wants Fixed draws or Random draws. Fixed draws contain combinations of teams which FIFA 2018 WorldCup has predecided. Random draws will be our main approach that will randomise groups and teams. We have successfully predicted each teams probability of winning the Worldcup after simulating the tournament 10000 times. 
  
 ## All Sources Used:
 http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0101-74382015000300577#B7
